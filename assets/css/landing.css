@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  background-color: #edf2fb;
+}
+
+                    /*logo*/
+
+#logo {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+#logo img {
+  width: 100%;
+}
+
+                /*Languages*/
+
+#languages {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 7%;
+}
+
+#languages ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#languages li {
+  list-style-type: none;
+  font-size: 45px;
+}
+
+#languages a {
+  text-decoration: none;
+  color: #00328d;
+}
+
+#languages a:visited {
+  color: #00328d;
+}
+
+                  /*Hover*/
+
+span {
+  position: absolute;
+}
+/* On montre le premier texte */
+.lgbase {
+   opacity:0.75;
+}
+/* On cache le second texte */
+.lghover{
+  opacity: 0;
+}
+/* On fait disparaitre le premier texte au passage de la souris. */
+.lg:hover span.lgbase{
+   opacity:0;
+}
+/* On fait apparaitre le second texte au passage de la souris. */
+.lg:hover span.lghover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+                    /*Social*/
+
+#social {
+  text-align: center;
+  margin-top: 7%;
+}
+#social li {
+  display: inline-block;
+  opacity: 0.10;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+#social li:hover {
+opacity: 1;
+}
